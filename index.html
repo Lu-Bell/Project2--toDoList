@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="UTF-8">
+<title>Tasks List</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<link rel = "stylesheet" href = "style.css">
+</head>
+<body>
+   <div class = "container">
+        <h1><span style="color:blueviolet">Tasks</span> <span style="color:white">List</span></h1>
+    </div>
+
+    <div class = "container">
+        <form id = "new-task">
+            <input id="task" class = "form-control form-control-lg" autocomplete = "off" autofocus placeholder = "Enter Task Title Here" type = "text"><br><br>
+            <label for="priority">Priority:</label>
+                <select name="priorities" id="priorities-options">
+                <optgroup label="Options">
+                <option value="high">High</option>
+                <option value="medium">Medium</option>
+                <option value="low">Low</option>
+             </optgroup>
+            </select>
+            <input id="submit" type="Submit">
+        </form>
+    </div>
+
+    <div class = "container" >
+        <h3><span style = "color: blueviolet">To-Do:</span></h3>
+    </div>
+
+    <div class = "list-group">
+        <ul id = "tasks_list">
+        </ul>
+    </div>
+        <script src="myScript.js"></script>
+</body>
+</html>

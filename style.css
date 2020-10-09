@@ -1,0 +1,73 @@
+body
+{
+    background-color: black;
+    text-align: center;
+    margin: auto;
+    font-family: "Lucida Console", Monaco, monospace;
+}
+
+h1
+{
+    font-size: 100px;
+}
+h3
+{
+    margin: auto;
+}
+h4{
+    color: white;
+}
+li
+{
+    color: blueviolet;
+    background-color: white;
+    font-weight: bold;
+    border: 5px solid blueviolet;
+}
+label
+{
+    color: blueviolet;
+}
+.remove
+{
+    background-color: crimson;
+    float: right;
+}
+.completed
+{
+    background-color: darkslategray;
+    float: left;
+}
+.pending
+{
+    background-color: yellow;
+    float: left;
+}
+.form-check-inline
+{
+    color: blueviolet;
+}
+#submit:hover{
+    background-color: blueviolet;
+}
+.priority
+{
+    
+}
+.completed:active {
+    text-decoration: line-through;
+  }
+
+  li {
+    text-align: center;
+    font-size: 100%;
+    list-style: none;
+    margin: 0;
+  }
+  input[type=checkbox]:checked + label {
+    color:red;
+    text-decoration: line-through;
+  } 
+  input[type=checkbox]{
+    text-align: center;
+  }
